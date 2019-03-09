@@ -1,9 +1,7 @@
 
-# LaravelResponder
+# Laravel Responder
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
+![Packagist](https://img.shields.io/packagist/dt/gaurav93d/laravelresponder.svg?style=plastic)
 
 A tiny Laravel package to format API responses.
 
@@ -110,20 +108,9 @@ Please see the [changelog](changelog.md) for more information on what has change
 ## Credits
 
 - [Gaurav Deshpande](https://github.com/93gaurav93)
-- [All Contributors][link-contributors]
 
 ## License
 
-MIT. Please see the [license file](license.md) for more information.
+MIT. Please see the [license file](LISCENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/gaurav93d/laravelresponder.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/gaurav93d/laravelresponder.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/gaurav93d/laravelresponder/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/gaurav93d/laravelresponder
-[link-downloads]: https://packagist.org/packages/gaurav93d/laravelresponder
-[link-travis]: https://travis-ci.org/gaurav93d/laravelresponder
-[link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/gaurav93d
-[link-contributors]: ../../contributors
