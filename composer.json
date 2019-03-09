@@ -9,7 +9,16 @@
         }
     ],
     "homepage": "https://github.com/gaurav93d/laravelresponder",
-    "keywords": ["Laravel", "LaravelResponder"],
+    "keywords": [
+        "Laravel",
+        "Responder",
+        "LaravelResponder",
+        "laravel-responder",
+        "API",
+        "JSON",
+        "Request",
+        "Response"
+    ],
     "require": {
         "illuminate/support": "~5"
     },
