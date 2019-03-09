@@ -1,0 +1,42 @@
+{
+    "name": "gaurav93d/laravelresponder",
+    "description": "A tiny Laravel package to format API responses.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gaurav Deshpande",
+            "email": "93gaurav93@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/gaurav93d/laravelresponder",
+    "keywords": ["Laravel", "LaravelResponder"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "gaurav93d\\LaravelResponder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "gaurav93d\\LaravelResponder\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "gaurav93d\\LaravelResponder\\LaravelResponderServiceProvider"
+            ],
+            "aliases": {
+                "Responder": "gaurav93d\\LaravelResponder\\Facades\\Responder"
+            }
+        }
+    }
+}
