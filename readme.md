@@ -36,13 +36,13 @@ For Laravel version < 5.5, consider listing service provider and facade in `conf
 
 ``` json
 {
-  "success": true, // false when error response
+  "success": true,
   "status": 200,
   "data": [
-    // Here your beautiful data goes
+    "Here your beautiful data goes"
   ],
   "errors": [
-    // Here your ugly errors go
+    "Here your ugly errors go"
   ]
 }
 ```
