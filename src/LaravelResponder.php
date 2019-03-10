@@ -6,8 +6,7 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Response as IlluminateResponse;
 
 /**
- * Class LaravelResponder
- * @package gaurav93d\LaravelResponder
+ * Class LaravelResponder.
  */
 class LaravelResponder
 {
@@ -32,7 +31,6 @@ class LaravelResponder
      */
     protected $errors = [];
 
-
     /**
      * @param array $headers
      * @return LaravelResponder
@@ -40,6 +38,7 @@ class LaravelResponder
     public function headers($headers = [])
     {
         $this->headers = $headers;
+
         return $this;
     }
 
@@ -52,6 +51,7 @@ class LaravelResponder
     {
         $this->data = $data;
         $this->status = $status;
+
         return $this->respond();
     }
 
@@ -65,6 +65,7 @@ class LaravelResponder
         $this->errors = $errors;
         $this->status = $status;
         $this->success = false;
+
         return $this->respond();
     }
 
@@ -79,6 +80,7 @@ class LaravelResponder
             'data' => $this->data,
             'errors' => $this->errors,
         ];
+
         return response()->json($responseData, $this->status, $this->headers);
     }
 

@@ -48,7 +48,7 @@ class LaravelResponderServiceProvider extends ServiceProvider
     {
         return ['laravelresponder'];
     }
-    
+
     /**
      * Console-specific booting.
      *
