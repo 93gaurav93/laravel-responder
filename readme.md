@@ -1,8 +1,8 @@
 
 # Laravel Responder
 
-[![StyleCI](https://styleci.io/repos/174658293/shield?branch=master&style=for-the-badge)](https://styleci.io/repos/174658293)
-[![Total Downloads](https://img.shields.io/packagist/dt/gaurav93d/laravelresponder.svg?style=for-the-badge)](https://packagist.org/packages/gaurav93d/laravelresponder)
+[![StyleCI](https://styleci.io/repos/174658293/shield?branch=master&style=flat-square)](https://styleci.io/repos/174658293)
+[![Total Downloads](https://img.shields.io/packagist/dt/gaurav93d/laravelresponder.svg?style=flat-square)](https://packagist.org/packages/gaurav93d/laravelresponder)
 
 A tiny Laravel package to format API responses.
 
