@@ -2,7 +2,7 @@
 
 namespace gaurav93d\LaravelResponder;
 
-use Illuminate\Support\Facades\Validator;
+use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Response as IlluminateResponse;
 
 /**
